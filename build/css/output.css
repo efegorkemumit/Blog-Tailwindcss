@@ -1199,21 +1199,41 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:m-5 {
+    margin: 1.25rem;
+  }
+
   .lg\:mr-6 {
     margin-right: 1.5rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:w-9\/12 {
     width: 75%;
   }
+
+  .lg\:w-3\/12 {
+    width: 25%;
+  }
 }
 
 @media (min-width: 1280px) {
+  .xl\:m-6 {
+    margin: 1.5rem;
+  }
+
   .xl\:ml-6 {
     margin-left: 1.5rem;
   }
 
   .xl\:w-6\/12 {
     width: 50%;
+  }
+
+  .xl\:w-9\/12 {
+    width: 75%;
   }
 }
